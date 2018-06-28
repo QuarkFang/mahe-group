@@ -1,0 +1,103 @@
+{% extends "bootstrap/base.html" %} {% block scripts %} {{ super() }}
+{% endblock %} {% block title %}{{ title_name }}{% endblock %} {% block navbar %}
+<div class="navbar-inverse" role="navigation">
+    <div class="container" style="width:90%">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.bmie.neu.edu.cn">BMIE</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/home/">Home</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/Leader/">Leader</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %} {% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Group Leader</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="{{ url_for('static', filename='images/person/mahe.jpg') }}" width="300px">
+        </div>
+        <div class="col-sm-8">
+            <h2>
+                He Ma
+                <small>Ph.D.</small>
+            </h2>
+            <h4>
+                <b>Current Appointment</b>
+            </h4>
+            <p>Associate Professor</p>
+            <p>Sino-Dutch Biomedical and Information School</p>
+            <p>Northeastern University</p>
+            <p>P.R. China</p>
+            <h4>
+                <b>Contact Information</b>
+            </h4>
+            <p>Email: mahe@bmie.neu.edu.cn</p>
+            <p>Contact Number: (86)18524442165</p>
+            <h4>
+                <b>Positions and Employment</b>
+            </h4>
+            <p>2015.9 – present</p>
+            <p>National University of Singapore (Suzhou) Research Institute Guest Investigator</p>
+            <p>2014.11 – present</p>
+            <p>Sino-Dutch Biomedical and Information Engineering School, Northeastern University Associate Professor</p>
+            <p>2013.8 –2014.11</p>
+            <p>National University of Singapore (Suzhou) Research Institute Research Fellow</p>
+            <p>2012.8 - 2013.7</p>
+            <p>The Centre of Social Media Innovations for Communities (COSMIC), National University of Singapore Research Assistant</p>
+            <h4>
+                <b>Educational Background</b>
+            </h4>
+            <p>2008.8 - 2013.12</p>
+            <p>School of Computing, National University of Singapore PhD. (Majored in Computer Science)</p>
+            <p>2004.9 - 2008.7</p>
+            <p>College of Information Science and Engineering, Northeastern University, China Bachelor of Engineering (Majored in Computer Science and Technology)</p>
+            <b>In honor class Rank: top 5 in the college</b>
+            <h4>
+                <b>Research interests</b>
+            </h4>
+            <p>Radiomics on Lung Cancer</p>
+            <p>Big Data Analysis on Breast Cancer</p>
+            <p>Remote Medicine System</p>
+            <p>Media Streaming Strategy</p>
+            <p>Spatial-Temporal Data Management</p>
+            <p>Mobile Application Development</p>
+            <h4>
+                <b>Course Teaching</b>
+            </h4>
+            <p>Embedded System Technology (Undergraduate Student)</p>
+            <p>Design Centered Learning (Tutor, Undergraduate Student)</p>
+            <p>Network Interconnection and Internet Technology (Master Student)</p>
+            <p>Academic English Writing (Foreign Master Student, taught in English)</p>
+            <h4>
+                <b>Other Experience and Professional Memberships</b>
+            </h4>
+            <p>Member of Chinese Society and Biomedical Engineering</p>
+            <p>Reviewer of National Natural Science Foundation of China</p>
+            <p>Reviewer of IEEE Journal of Biomedical and Health Informatics, IEEE International Conference on Multimedia and Expo, PLOS ONE and etc.</p>
+            <h4>
+                <b>Honors</b>
+            </h4>
+            <p>Second Prize, Teaching Achievement Award of Northeastern University, 2017</p>
+            <p>Second Prize, Teaching Achievement Award of Northeastern University, 2016</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
