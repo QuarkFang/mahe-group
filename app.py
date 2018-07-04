@@ -7,6 +7,7 @@ Bootstrap(app)
 
 web_name = 'Northeastern University Ma He Group'
 
+
 @app.route('/')
 def index():
     return render_template('home.html', title_name=web_name)
