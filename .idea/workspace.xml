@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33c27ae2-8ed8-45df-83b2-0357788dd8df" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/leader.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mahe/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mahe/publications.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mahe_group$mahe_group.coverage" NAME="mahe-group Coverage Results" MODIFIED="1530696918921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/mahe_group$mahe_group.coverage" NAME="mahe-group Coverage Results" MODIFIED="1530697312152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -40,13 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+            <state relative-caret-position="-134">
+              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding>
-                <element signature="e#1815#1839#0#HTML" expanded="true" />
+                <element signature="e#1808#1832#0#HTML" expanded="true" />
                 <element signature="e#1852#1894#0#HTML" expanded="true" />
                 <element signature="e#1993#2035#0#HTML" expanded="true" />
                 <element signature="e#2374#2397#0#HTML" expanded="true" />
@@ -62,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leader.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="leader.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/leader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            <state relative-caret-position="285">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
               <folding>
                 <element signature="e#1249#1283#0#HTML" expanded="true" />
               </folding>
@@ -91,8 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/mahe/publications.html" />
-        <option value="$PROJECT_DIR$/templates/leader.html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/leader.html" />
       </list>
     </option>
   </component>
@@ -248,7 +246,7 @@
         <state relative-caret-position="532">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#1815#1839#0#HTML" expanded="true" />
+            <element signature="e#1808#1832#0#HTML" expanded="true" />
             <element signature="e#1852#1894#0#HTML" expanded="true" />
             <element signature="e#1993#2035#0#HTML" expanded="true" />
             <element signature="e#2374#2397#0#HTML" expanded="true" />
@@ -270,16 +268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/leader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-          <folding>
-            <element signature="e#1249#1283#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mahe/publications.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -292,10 +280,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+        <state relative-caret-position="-134">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
           <folding>
-            <element signature="e#1815#1839#0#HTML" expanded="true" />
+            <element signature="e#1808#1832#0#HTML" expanded="true" />
             <element signature="e#1852#1894#0#HTML" expanded="true" />
             <element signature="e#1993#2035#0#HTML" expanded="true" />
             <element signature="e#2374#2397#0#HTML" expanded="true" />
@@ -306,6 +294,16 @@
             <element signature="e#4624#4641#0#HTML" expanded="true" />
             <element signature="e#2928#2962#0#HTML" expanded="true" />
             <element signature="e#3083#3109#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/leader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+          <folding>
+            <element signature="e#1249#1283#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
