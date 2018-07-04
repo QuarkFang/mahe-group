@@ -1,0 +1,52 @@
+{% extends "bootstrap/base.html" %} {% block scripts %} {{ super() }}
+{% endblock %} {% block title %}{{ title_name }}{% endblock %} {% block navbar %}
+<div class="navbar-inverse" role="navigation">
+    <div class="container" style="width:90%">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.bmie.neu.edu.cn">BMIE</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/home/">Home</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/Leader/">Leader</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %} {% block content %}
+<div class="row" style="width: 90%; margin: 0 auto">
+    <div class="navbar-left col-sm-1", role="navigation">
+        <ul class="nav">
+            <li>
+                <a href="/leader/#current">Current</a>
+            </li>
+        </ul>
+        <ul class="nav">
+            <li>
+                <a href="/leader/#others">Others</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>
+            <b id="publications">Publications</b>
+        </h2>
+        <p style="font-size: large">
+        <a href="http://eiger.ddns.comp.nus.edu.sg/pubs/hugvid-uncertaingeotaggedvideos-acmgis12.pdf">HUGVid: Handling, Indexing and Querying of Uncertain Geo-Tagged Videos</a>
+        <br>ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, 2012.11.6-2012.11.9.</p>
+    </div>
+</div>
+
+{% endblock %}

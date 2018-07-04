@@ -19,7 +19,7 @@
             </ul>
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="/Leader/">Leader</a>
+                    <a href="/leader/">Leader</a>
                 </li>
             </ul>
         </div>
@@ -36,13 +36,25 @@
             </ol>   
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="{{ url_for('static', filename='images/slide1.jpg') }}" alt="First slide">
+                    <img src="{{ url_for('static', filename='images/slide1-1.jpg') }}" alt="First slide">
+                    <div class="container">
+                      <div class="carousel-caption" style="text-align: left">
+                        <h1 style="color: whitesmoke; font-size: 40px">
+                            Ma He Group
+                        </h1>
+                        <p style="color: whitesmoke; font-size: 20px">
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta grav
+                            ida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        </p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Join WSB48</a></p>
+                      </div>
+                    </div>
                 </div>
                 <div class="item">
-                    <img src="{{ url_for('static', filename='images/slide1.jpg') }}" alt="Second slide">
+                    <img src="{{ url_for('static', filename='images/slide1-1.jpg') }}" alt="Second slide">
                 </div>
                 <div class="item">
-                    <img src="{{ url_for('static', filename='images/slide1.jpg') }}" alt="Third slide">
+                    <img src="{{ url_for('static', filename='images/slide1-1.jpg') }}" alt="Third slide">
                 </div>
             </div>
             <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
@@ -53,6 +65,45 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+    </div>
+    <div class="panel-heading", style="width: 90%; margin: 0 auto">
+        <h2>Leader</h2>
+        <hr class="featurette-divider">
+        <div class="row">
+            <div class="col-sm-3 col", style="text-align: center">
+                <img src="{{ url_for('static', filename='images/head/mahe.png') }}" width=70%>
+            </div>
+            <div class="col-sm-9 col", style="text-align: left">
+                <h3>
+                    <b><a href="/Leader/">He Ma</a></b>
+                    <small>Associate Professor</small>
+                </h3>
+                <p style="font-size: medium">
+                    I am associate professor and vice president of Sino-Dutch Biomedical and Information Engineering
+                    School at Northeastern University.<br>
+                    Before coming to NEU, I was research fellow at ICRM, NUSRI.<br>
+                    I completed PhD in SOC, NUS, 2014 and bachelor in CS, NEU, 2008.<br>
+                    I am member of Chinese Society and Biomedical Engineering and reviewer of National Natural Science
+                    Foundation of China, IEEE Journal of Biomedical and Health Informatics, IEEE International Conference
+                    on Multimedia and Expo, PLOS ONE and etc.<br>
+                </p>
+                <a style="bottom: 0" href="/leader/">more</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel-heading", style="width: 90%; margin: 0 auto">
+        <h2>Graduate</h2>
+        <hr class="featurette-divider">
+        <div class="row">
+            <div class="col-sm-3", style="text-align: center">
+                <img src="{{ url_for('static', filename='images/head/mengqingyu.png') }}" width=70%>
+                 <h3>
+                    <b><a href="/mqy/">Qingyu Meng</a></b>
+                    <small>Bachelor, 2018</small>
+                </h3>
+                <p>(1996-2018)</p>
+            </div>
         </div>
     </div>
 </main>

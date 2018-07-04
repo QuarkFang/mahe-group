@@ -17,9 +17,14 @@ def home():
     return render_template('home.html', title_name=web_name)
 
 
-@app.route('/Leader/')
+@app.route('/leader/')
 def leader():
     return render_template('leader.html', title_name=web_name)
+
+
+@app.route('/leader/more')
+def leader_more():
+    return render_template('mahe/publications.html', title_name=web_name)
 
 
 if __name__ == '__main__':
