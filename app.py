@@ -23,9 +23,14 @@ def leader():
     return render_template('leader.html', title_name=web_name)
 
 
-@app.route('/leader/more')
+@app.route('/leader/more/')
 def leader_more():
     return render_template('mahe/publications.html', title_name=web_name)
+
+
+@app.route('/mengqingyu/')
+def person_mqy():
+    return render_template('mengqingyu.html', title_name=web_name)
 
 
 if __name__ == '__main__':
